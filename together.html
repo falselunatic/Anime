@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Watch Together</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <!-- <iframe src="http://127.0.0.1:5500/together.html" frameborder="0"></iframe> -->
+        
+        <h1>Lets Watch Together</h1>
+        <!-- <video id="video" src="/videos/kengan_ashura/ep1.mp4" autoplay onclick="togglePause()">show</video> -->
+        <div class="video-container container">
+            <video src="/videos/kengan_ashura/ep1.mp4" muted autoplay="true" controls></video>
+        </div>
+        <br>
+        <p><button id="start" class="btn">Share Your Screen</button>&nbsp;<button id="stop" class="btn">Stop Sharing</button></p>
+        
+        <strong></strong>
+        <br>
+        <pre id="log"></pre>
+    </section>
+    <script src="func.js"></script>
+    <script src="screencapt.js"></script>
+</body>
+</html>
